@@ -19,7 +19,7 @@ https://www.youtube.com/watch?v=y3e_ri-vOIo
 - Instead, <kbd>right click</kbd> on the command prompt item that appeared in your start menu, and <kbd>click</kbd> on "Run as administrator"
 - Now inside the admin command prompt, type in "<kbd>c</kbd><kbd>d</kbd><kbd>[spacebar]</kbd>" and hit <kbd>CTRL</kbd> <kbd>V</kbd> to paste the explorer address. For me, I had to type in the following:
 ```cmd
-cd C:\Users\Taran Baron\Downloads\Interception\command line installer
+cd C:\Users\LNS\Downloads\Interception\command line installer
 ```
 - Hit <kbd>ENTER</kbd>
 - Now, type in the following line of text exactly as shown:
