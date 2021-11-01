@@ -79,3 +79,31 @@ F5::
 Send ll
 return
 
+
+
+;Color generator teller script
+^F1::
+MouseGetPos, xpos, ypos
+PixelGetColor, color, %xpos%, %ypos%
+MsgBox The color at the current cursor position is %color%.
+return
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;ZOOM.EXE FUNCTIONS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+#ifwinactive ahk_exe Zoom.exe
+Rbutton::
+Send !v
+Return
+
+
+
+
+
+#ifwinactive ahk_exe Zoom.exe
+mbutton::
+Send !a
+Return
+
+
