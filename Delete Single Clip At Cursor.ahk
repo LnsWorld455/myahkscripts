@@ -1,7 +1,7 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+﻿Menu, Tray, Icon, C:\Windows\system32\imageres.dll,219 ;Set custom Script icon
+global Count := 329, Shell := 4, Image := 0, File := "shell32.dll", Height := A_ScreenHeight - 170 ;Define constants
+
+
 
 #IfWinActive ahk_exe Adobe Premiere Pro 2018.exe
 ;;DELETE SINGLE CLIP AT CURSOR
