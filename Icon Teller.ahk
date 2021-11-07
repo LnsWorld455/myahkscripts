@@ -50,6 +50,5 @@ ExitApp
 
 ;Script For Just Add The Icon
 ;Menu, Tray, Icon, C:\Windows\system32\shell32.dll,209 ;Set custom Script icon
-;global Count := 329, Shell := 4, Image := 0, File := "shell32.dll", Height := A_ScreenHeight - 170 ;Define constants
 
 
