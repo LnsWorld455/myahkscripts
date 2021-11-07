@@ -216,3 +216,51 @@ Tooltip,
 Sleep 200
 Blockinput, off
 return
+
+
+numpad9::
+blockinput, Sendandmouse
+blockinput, on
+Send ^!+1
+Send ^!+1
+Send ^!+1
+Send ^!+1
+Send ^!+1
+Mouseclick, left, 825, 751
+Sleep 500
+Send ^c
+Sleep 200
+Send ^!+1
+Send ^!+1
+Sleep 500
+Send ^v
+Tooltip, The Video Or Audio Has Been Copied And Pasted To Your Playhead Position.
+Sleep 500
+Tooltip, 
+Sleep 200
+Blockinput, off
+return
+
+
+numpadadd::
+blockinput, Sendandmouse
+blockinput, on
+Send ^!+1
+Send ^!+1
+Send ^!+1
+Send ^!+1
+Send ^!+1
+Mouseclick, left, 474, 728
+Sleep 500
+Send ^c
+Sleep 200
+Send ^!+1
+Send ^!+1
+Sleep 500
+Send ^v
+Tooltip, The Video Or Audio Has Been Copied And Pasted To Your Playhead Position.
+Sleep 500
+Tooltip, 
+Sleep 200
+Blockinput, off
+return
