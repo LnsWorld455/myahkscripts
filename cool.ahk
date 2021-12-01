@@ -1,3 +1,4 @@
+; I use this to make folders
 #IfWinActive ahk_class CabinetWClass
 
 ^numpad9::
