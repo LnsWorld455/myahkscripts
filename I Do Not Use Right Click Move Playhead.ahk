@@ -1,4 +1,5 @@
-﻿Menu, Tray, Icon, C:\Windows\system32\shell32.dll,101 ;Set custom Script icon
+; I Do Not Use This Anymore Use PREMIERE_MOD_Right_click_timeline_to_move_playhead.ahk
+Menu, Tray, Icon, C:\Windows\system32\shell32.dll,101 ;Set custom Script icon
 global Count := 329, Shell := 4, Image := 0, File := "shell32.dll", Height := A_ScreenHeight - 170 ;Define constants
 ;The Above It Jus For The Icon Of This Script!
 
