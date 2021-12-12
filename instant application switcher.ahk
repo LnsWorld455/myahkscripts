@@ -146,11 +146,15 @@ WinClose,ahk_group taranexplorers
 }
 
 
+F2::
+switchToPremiere()
+
+
 switchToPremiere(){
 IfWinNotExist, ahk_class Premiere Pro
 	{
 	;Run, Adobe Premiere Pro.exe
-	;Adobe Premiere Pro CC 2018
+	;Adobe Premiere Pro CC 2015
 	; Run, C:\Users\LNS\Desktop\Adobe Premiere Pro CC 2018\Adobe Premiere Pro 2018.exe ;if you have more than one version instlaled, you'll have to specify exactly which one you want to open.
 	Run, Adobe Premiere Pro.exe
 	}
